@@ -1,4 +1,5 @@
 import { Dispatch, FormEvent, SetStateAction, useRef } from 'react';
+import { convertTreeToMermaid } from '../utils';
 
 interface Props {
   setText: Dispatch<SetStateAction<string>>;
@@ -10,8 +11,7 @@ export const TextBox = ({ setText }: Props) => {
   function handleSubmitText(e: FormEvent) {
     e.preventDefault();
     if (!textRef || !textRef.current) return;
-    setText(textRef.current.value ?? '');
-    console.log(textRef.current.value);
+    setText(convertTreeToMermaid(textRef.current.value));
   }
 
   return (
