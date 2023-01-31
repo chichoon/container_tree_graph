@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/container_tree_graph/static/css/main.e6c13ad2.css",
+    "main.js": "/container_tree_graph/static/js/main.e380babd.js",
+    "index.html": "/container_tree_graph/index.html",
+    "main.e6c13ad2.css.map": "/container_tree_graph/static/css/main.e6c13ad2.css.map",
+    "main.e380babd.js.map": "/container_tree_graph/static/js/main.e380babd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e380babd.js"
+  ]
+}
