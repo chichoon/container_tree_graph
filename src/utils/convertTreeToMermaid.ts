@@ -1,6 +1,8 @@
 function convertArrayToMermaid(acc: string, cur: string[]) {
-  if (cur[0].length === 0) return acc + `${cur[1]}[${cur[1]}];\n`;
-  return acc + `${cur[0]}-->${cur[1]};\n`;
+  const parent = cur[0];
+  const child = cur[1] ?? 'DUMMY';
+  if (parent.length === 0) return acc + `${child}[${child}];\n`;
+  return acc + `${parent}-->${child};\n`;
 }
 
 export function convertTreeToMermaid(treeText: string) {
