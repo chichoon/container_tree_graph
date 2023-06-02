@@ -1,5 +1,7 @@
 # container_tree_graph
 
+## 놀랍게도 컨테이너가 사라져버린!!!!!!!
+
 ## [배포 페이지](https://chichoon.github.io/container_tree_graph/)
 
 내가 만든 트리 어떻게 생겼는지 모르겠어서 컨테이너를 못하겠어
@@ -70,5 +72,3 @@ int main (void) {
 ## 버그 리포트
 
 저 혼자 쓰려고 만든 거긴 한데 혹시 본인 헤더로 돌렸을 때 이상현상이나 버그가 있으면 슬랙 @jiychoi 로 제보를 해주세요
-
-저는 지최입니다.
